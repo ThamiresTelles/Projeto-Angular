@@ -3,7 +3,10 @@
 <hr>
 
 <div>
-    Esta é a melhor aplicação angular 
+    Esta é a melhor aplicação angular, disponivél as seguintes cores:
+    <ul *ngFor="let cor of arrayCores">
+        <li>{{ cor }}</li>
+    </ul>
 </div>
 
 <p *ngIf="mostrarFonte">
